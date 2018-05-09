@@ -1,15 +1,24 @@
-// Carl Gebhardt
-// OlympicRings
-size(700,700);
-noFill();
-strokeWeight(10);
-stroke(0,0,255);
-ellipse(100,100,200,200);
-stroke(0,0,0);
-ellipse(300,100,200,200);
-stroke(255,0,0);
-ellipse(500,100,200,200);
-stroke(255,255,0);
-ellipse(203,250,200,200);
-stroke(0,255,0);
-ellipse(405,250,200,200);
+void setup() {
+  size(800, 800);
+  background(0);
+  fill(255);
+  stroke(255);
+  strokeWeight(20);
+  line(700, 400, 100, 400);
+  textSize(50);
+  text("Spedometer", 200, 200);
+  textSize(20);
+  text("100", 680, 430);
+  text("90", 620, 430);
+  text("80", 560, 430);
+  text("70", 500, 430);
+  text("60", 440, 430);
+  text("50", 380, 430);
+  text("40", 320, 430);
+  text("30", 260, 430);
+  text("20", 200, 430);
+  text("10", 140, 430);
+  text("0", 80, 430);
+  text("Clay- 35", 255, 370);
+  line(300,380,300,390);
+}
