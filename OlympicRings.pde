@@ -23,8 +23,9 @@ void setup() {
   line(370, 380, 370, 390);
   text("Christian-58", 390, 370);
   line(435, 380, 435, 390);
-  text("Davis-13", 140, 370);
-  line(170, 380, 170, 390);
+  text("Davis-86", 580, 370);
+  line(600, 380, 600, 390);
   text("Aaron-13", 140, 350);
-  
+  textSize(30);
+  text("Davis Loves Peen <3 Bleh", 200, 500);
 }
